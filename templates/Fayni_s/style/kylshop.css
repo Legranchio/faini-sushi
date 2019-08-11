@@ -1,0 +1,367 @@
+.cart_title {
+	/* position: relative; */
+	/* display: block; */
+	/* background: #383D45 url("../img/cart.png") no-repeat 10px center; */
+	/* padding: 5px 10px 5px 35px; */
+	color: #333 !important;
+	/* border-radius: 3px; */
+	/* margin: 10px 0 0 0; */
+	transition: 0.3s;
+}
+
+.cart_title:hover{
+    text-decoration: none
+}
+.total_amount {
+	margin-left: 11%;
+	margin-top: -1%;
+	font-size: 12px;
+	/* padding: 5px; */
+}
+#bg_0{
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	display: none;
+}
+
+#modalCart {
+	/* background: #fff; */
+	width: 700px;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	padding: 25px;
+	margin: 0 0 0 -360px;
+	z-index: 99999;
+	display: none;
+	border-radius: 15px;
+	background-image: url(../img/sushi_bg.svg);
+	background-size: cover;
+}
+
+@media screen and (max-width: 730px){
+	#modalCart{
+		width: 500px;
+		margin: 0 0 0 -260px;
+	}
+}
+
+@media screen and (max-width: 570px){
+#modalCart {
+	width: 100%;
+	margin: 0;
+	position: absolute;
+	padding: 8px;
+	top: 2%;
+	right: 0;
+	left: 0;
+}
+    .action_button_cart {
+	margin: 20px auto 0;
+	/* margin: 0; */
+	padding: 0;
+	width: 100%;
+	display: block;
+}
+    .action_button_cart li {
+	display: inline-block;
+	list-style: none;
+	margin: 5px;
+}
+}
+
+.cartClose {
+	position: absolute;
+	top: -4px;
+	right: -2px;
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url("../img/cross-delete-black-circular-button.svg");
+	transform: scale(0.7);
+	opacity: 0.5;
+	transition: all .2s ease-in-out;
+	background-size: contain;
+}
+
+.cartClose:hover{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.action_button_cart{
+	margin: 20px auto 0;
+}
+
+.action_button_cart li{
+	display: inline-block;
+	list-style: none;
+}
+
+.action_button_cart li a{
+	display: block;
+	padding: 7px 20px;
+	background: #339E36;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #fff;
+	white-space: nowrap;
+	transition: 0.3s;
+}
+
+.action_button_cart li a:hover{
+	background: #248E44;
+}
+
+.cartClear {
+	background: #f58227 !important;
+}
+
+.cartClear:hover{
+	background-color: red !important;
+}
+
+#staticCart .cartClear{
+	float: right;
+	margin-top: -30px;
+	padding: 3px 13px;
+	background: #4a4a4a !important;
+	font-size: 13px;
+	border-radius: 3px;
+	color: #fff;
+	text-decoration: none !important;
+}
+
+.listing-cart {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	background-color: rgba(248, 248, 248, 0.7);
+	/* border: px dotted #333; */
+}
+
+.listing-cart th, .listing-cart td {
+	border: 1px #333 dotted;
+	padding: 5px;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.listing-cart th {
+	background: #202A21;
+	color: #fff;
+}
+
+.listing-cart td a {
+	font-weight: bold;
+	color: #333;
+	font-size: 1.3rem;
+}
+.productPrice {
+	text-align: center;
+	color: #000;
+}
+
+.listing-cart .goodsAmount {
+	width: 70px;
+	padding: 3px 5px;
+	border: 1px #f08951 solid;
+	background-color: transparent;
+	border-radius: 5px;
+	/* padding: 2px; */
+}
+
+.totalGoods {
+	/* text-align: right; */
+	margin: 10px 0;
+	font-size: 15px;
+	background-color: rgba(255,255,255,.5);
+	padding: 8px;
+	/* width: 30%; */
+	text-align: center;
+	display: inline-block;
+	float: right;
+	border-radius: 10px;
+	color: #333;
+	border: 2px solid #F08951;
+}
+
+.removeGoods {
+	background: url("../img/remo.svg");
+	display: block;
+	width: 18px;
+	height: 18px;
+	float: right;
+	cursor: pointer;
+	background-size: contain;	
+	opacity: 1;
+	transition: all .2s ease-in-out;
+}
+
+.removeGoods:hover{
+	opacity: .8;
+    transform: scale(1.1);
+}
+
+.myCart{
+	padding: 20px;
+}
+
+.myCart h1{
+	margin: 0 0 10px 0;
+	font-size: 21px;
+	color: #3F8EE0;
+}
+
+#payment{
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.go_payments, .btn_buy{
+	background: #fff url("../img/webmoney.png") no-repeat center center;
+    display: block;
+    width: 180px;
+	height: 70px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: 0.3s;
+}
+
+.free_kassa{
+	background: #fff url("../img/free-kassa.png") no-repeat center center;
+	display: block;
+	width: 255px;
+	height: 70px;
+	float: left;
+	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+	outline: none;
+	transition: 0.3s;
+}
+
+.btn_buy {
+	background: #4cbf1e;
+	height: 40px;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.go_payments:hover{
+	background: #fff url("../img/webmoney.png") no-repeat center center !important;
+}
+
+.payment_buttons{
+	font-style: italic;
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.payment_buttons form{
+	display: inline-block;
+}
+
+.go_buy{
+	display: inline-block;
+	background: #6CAD56;
+	color: #fff;
+	outline: none;
+	border: none;
+	padding: 7px 10px;
+	border-right: 1px #87CE70 solid;
+	margin: 0;
+	cursor: pointer;
+	border-radius: 50px 0 0 50px;
+	transition: 0.3s;
+}
+
+.go_buy:hover{
+	background: #3E9E1E;
+}
+
+.add_to_cart{
+	padding: 10px;
+	 border: 1px solid #f89045; 
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 15px;
+	background-color: #f58227;
+	background-image: linear-gradient(-74deg, #ed7926 0%, #da2c28 100%);
+	color: #fff;
+	transition: all .5s;
+}
+
+.add_to_cart:hover{
+	text-decoration: none;
+	background-color: transparent;
+background-image: none;
+color: #333;
+border: 1px solid #f89045;
+}
+
+.kylshop_no_logged{
+    background: #2F92D8;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.kylshop_no_logged a{
+    color: #8BFFFB;
+    text-decoration: none;
+}
+
+.kylshop_no_logged a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.your_goods{
+    color: #D82F2F;
+}
+
+.price b{
+    font-size: 21px;
+    color: #09A700;
+}
+
+.kylshop_show_m{
+    background: #3AAF89;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 3px;
+    color: #fff;
+}
+
+#staticCart form{
+	max-width: 300px;
+}
+
+.one_field{
+	display: block;
+	margin-bottom: 10px;
+}
+
+#staticCart input[type="text"], #staticCart input[type="email"], #staticCart input[type="tel"], #staticCart input[type="password"], #staticCart textarea, #staticCart select{
+	background: #fff;
+	padding: 5px 10px;
+	border: 1px #ccc solid;
+	border-radius: 3px;
+	width: 100%;
+}

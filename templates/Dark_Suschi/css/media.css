@@ -1,0 +1,299 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #seo_main_text {
+	font-size: 12px;
+	padding: 5px;
+	margin-bottom: 5px;
+	margin-bottom: 5px;
+}
+    #alert{
+        bottom:0;
+        left:0;
+    }
+    .smalltext {
+	font-family: 'Vollkorn SC', serif;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	font-size: 1.1rem;
+}
+    .clock_item span{
+    font-size:2.5rem;
+    }   
+    .clock_item {	
+	padding: 8px;	
+	background-color: rgba(0,0,0,.7);	
+	margin-left: 10px;
+}
+   #clockdiv {
+	position: absolute;
+	bottom: 40%;
+	left: 0%;
+} 
+    .prodlistul li img {
+	border: 2px solid #F58227;
+	border-radius: 50%;
+	float: none;
+	display: inline-flex;
+	/* width: 90%; */
+	margin: 0 auto;
+	max-width: 70px;
+}
+.full_opt {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+    .price_block {
+
+	font-size: 1.4rem;
+}
+    .svg_icons {
+	max-width: 43px;
+	margin: 15px 10px;
+}
+    .full_ttl {
+
+	font-size: 1em;
+}
+	.nav_block_fll{
+		display: none;
+	}
+	#mob_menu_but {
+		
+		display: block;
+	}
+	.item_desc {
+		list-style: none;
+		padding: 0;
+		margin-bottom: -5%;
+		display: block;
+		/* float: left; */
+	}
+	.arr_dovn {
+		position: absolute;
+		z-index: 99;
+		left: 42%;
+		width: 13%;
+		bottom: 0;
+		padding: 15px;
+		background-color: rgba(0,0,0,.2);
+		border-radius: 15px;
+		cursor: pointer;
+	}
+	#q_search{
+		display: none;
+	}
+	.new_top_menu{
+		display: none;
+	}
+	.dark_logo {
+		max-height: 50px;
+		margin: 0 auto;
+		/* width: 20%; */
+		display: block;
+	}
+	.tell {
+		
+		margin-right: 0px;
+		font-size: 11px;
+	}
+	.slider_text {
+		position: absolute;
+		left: 0;
+		bottom: 2%;
+		width: 100%;
+		color: #fff;
+		background-color: rgba(0,0,0,.5);
+		padding: .5%;
+		font-size: 13px;
+	}
+	.slider_ttl {
+		position: absolute;
+		left: 0;
+		bottom: 30%;
+		font-size: 3rem;
+		color: #059748;
+		padding: 10px;
+		background-color: rgba(0,0,0,.4);
+		border-radius: 15px;
+		letter-spacing: 2px;
+	}
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+#seo_main_text {
+	font-size: 12px;
+	padding: 5px;
+	margin-bottom: 5px;
+	margin-bottom: 5px;
+}
+    #deliver_truck {
+	width: 25px;
+	/* margin-right: 15px; */
+	/* margin-top: -10px; */
+}
+    .svg_icons {
+	max-width: 33px;
+	margin: 15px 10px;
+}
+    #delivery-man {
+	display: none;
+}
+	#q_search{
+		display: none;
+	}
+	.new_top_menu{
+		display: none;
+	}
+	.dark_logo {
+		max-height: 50px;
+		margin: 0 auto;
+		/* width: 20%; */
+		display: block;
+	}
+	.tell {
+		
+		margin-right: 0px;
+		font-size: 11px;
+	}
+	.slider_text {
+		position: absolute;
+		left: 0;
+		bottom: 10%;
+		width: 100%;
+		color: #fff;
+		background-color: rgba(0,0,0,.5);
+		padding: .5%;
+		font-size: 13px;
+	}
+	.slider_ttl {
+		position: absolute;
+		left: 0;
+		bottom: 50%;
+		font-size: 3rem;
+		color: #059748;
+		padding: 10px;
+		background-color: rgba(0,0,0,.4);
+		border-radius: 15px;
+		letter-spacing: 2px;
+	}
+	#round_phone {
+		max-width: 15px;
+		margin-right: 10px;
+	}
+	.social {
+		width: 100%;
+	}
+	.footer_menu {
+		width: 100%;
+	}
+	.footer_logo {	
+		width: 45%;
+		
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+#seo_main_text {
+	font-size: 12px;
+	padding: 5px;
+	margin-bottom: 5px;
+	margin-bottom: 5px;
+}
+    	.arr_dovn {
+		
+		width: 50px;
+	
+	}
+	#round_phone {
+		max-width: 10px;
+		margin-right: 3px;
+	}
+	.tell {
+		
+		margin-left: -1px;
+		font-size: 10px;
+		padding: 0;
+		/* margin: 0; */
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+.container {
+	width: 1170px;
+}
+}
+@media only screen and (min-width : 1600px) {
+.container {
+	width: 1500px;
+}
+}
+@media only screen and (min-width : 1700px) {
+.container {
+	width: 1600px;
+}
+}

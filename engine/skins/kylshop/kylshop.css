@@ -1,0 +1,327 @@
+.logo_kyl-shop{
+    background: url("../../skins/kylshop/img/kylshop.png");
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    display: inline-block;
+}
+
+.clr{
+	clear: both;
+}
+
+.header .title{
+	font-weight: 700 !important;
+	color: #4798e7 !important;
+}
+
+.box .box-header{
+	background: #4E5780 !important;
+	text-shadow: none !important;
+	color: #FFE59D !important;
+	border-radius: 0 !important;
+}
+
+.deleteGoods{
+	background: url("../../skins/kylshop/img/deleteGoods.png");
+    width: 16px;
+    height: 16px;
+    margin: 10px 0 0 0;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.goodsOK{
+	background: url("../../skins/kylshop/img/goodsOK.png");
+    width: 16px;
+    height: 16px;
+    margin: 10px 15px 0 0;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.status_m{
+	background: url("../../skins/kylshop/img/status_m.png");
+    width: 16px;
+    height: 16px;
+    margin: 10px 15px 0 0;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn_actions a:hover{
+	opacity: 0.3;
+}
+
+.pad_no_r{
+	padding-right: 0;
+}
+
+.pad_no_l{
+	padding-left: 0;
+}
+
+.kylshop_menu{
+	position: relative;
+	margin: 0;
+}
+
+.kylshop_menu:before{
+	content: "";
+	background: #4E5780;
+	width: 100%;
+	height: 1000%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 0;
+}
+
+.status{
+	font-style: italic;
+	font-size: 12px;
+	display: block;
+	margin: 0;
+}
+
+.table-normal tbody tr{
+	background: #DFE2EF;
+}
+
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th{
+	transition: 0.3s;
+}
+
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th{
+	background: #fff !important;
+}
+
+.box{
+	overflow: hidden;
+}
+
+.kylshop_menu li{
+	list-style: none;
+	display: block;
+	position: relative;
+	z-index: 100;
+}
+
+.kylshop_menu li a{
+	background: #4E5780;
+	display: block;
+	border-bottom: 1px #333956 solid;
+	color: #fff;
+	padding: 9.5px 10px;
+	transition: 0.3s;
+}
+
+.kylshop_menu li a:hover{
+	background: #67709C !important;
+}
+
+.k_active{
+	background: #333956 !important;
+}
+
+.all_sum{
+	background: #FFE59D;
+	padding: 10px;
+	text-align: right;
+}
+
+.all_sum b{
+	font-weight: 900;
+}
+
+.table h5{
+	font-weight: bold !important;
+}
+
+.table input[type="text"], .inp{
+	border: 1px #fff solid;
+}
+
+.table input[type="text"]:focus, .inp{
+	border: 1px #4DADFF solid;
+}
+
+.answer_server .ok, .answer_server .error{
+	display: block;
+	text-align: center;
+	padding: 3px 0;
+	color: #50B14A;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.answer_server .error{
+	color: #CC5368;
+}
+
+.ahtung{
+	font-weight: 600;
+	font-size: 13px;
+	color: #EF4545 !important;
+}
+
+.modal-body p{
+	font-size: 13px;
+	font-weight: 600;
+	color: #808080;
+}
+
+.modal-body b{
+	font-style: italic;
+	color: #3276C7;
+}
+
+.modal-body a{
+	color: #099EDA;
+	font-size: 13px;
+}
+
+.modal-body li{
+	margin-left: 20px;
+}
+
+.settingstd label{
+	color: #a6acc3;
+}
+
+.more_info{
+	display: inline-block;
+	clear: both;
+	background: #939dcc;
+	padding: 2px 3px;
+	margin-top: 2px;
+	font-size: 11px;
+	border-radius: 3px;
+	color: #fff;
+	transition: 0.2s;
+}
+
+.more_info:hover{
+	background: #4e5780;
+	color: #fff;
+}
+
+.pad{
+	padding: 15px;
+}
+
+.user_name{
+	display: inline-block;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 5px;
+	color: #4e5780;
+	clear: both;
+}
+
+.add_field{
+	display: inline-block;
+	clear: both;
+	float: left;
+	background: #4e5780;
+	padding: 4px 10px;
+	margin: 0 5px 10px 10px;
+	font-size: 15px;
+	border-radius: 3px;
+	color: #fff;
+	transition: 0.2s;
+}
+
+.add_field:hover{
+	background: #333956;
+	color: #fff;
+}
+
+.description_min{
+	color: #9aa0b7;
+	font-style: italic;
+	font-size: 11px;
+}
+
+.inp_modal{
+	padding: 17px 10px !important;
+}
+
+.dn_n{
+	display: none;
+}
+
+.form_add_fields .deleteGoods{
+	margin: 0;
+	opacity: 0.5;
+}
+
+.form_add_fields .deleteGoods:hover{
+	opacity: 1;
+}
+
+.fields{
+	font-size: 14px;
+	margin: 5px 0 0 0;
+}
+
+.fields b{
+	color: #9197b3;
+}
+
+.fl{
+	float: left;
+	margin: 0 10px 10px 10px;
+}
+
+.box-content{
+	background: #fff;
+}
+
+.movetop{
+	background: url("../../skins/kylshop/img/movetop.png") no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 5px;
+	opacity: 0.5;
+	transition: 0.2s;
+}
+
+.movebottom{
+	background: url("../../skins/kylshop/img/movebottom.png") no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 5px;
+	opacity: 0.5;
+	transition: 0.2s;
+}
+
+.movetop:hover, .movebottom:hover{
+	opacity: 1;
+}
+
+.quest_desc{
+	background: #bdc2dc;
+	font-style: italic;
+	font-size: 12px;
+	color: #fff;
+	padding: 0 5px 2px;
+	margin: -3px 0 0 5px;
+	border-radius: 100px;
+}
+
+.ibutton-label-on i, .ibutton-label-off i{
+	color: #fff;
+}
+
+.ibutton-label-on{
+	background: #8ebc57 !important;
+}
+
+.copyright, .copyright a{
+	color: #98a1c5;
+	font-size: 12px;
+	font-style: italic;
+}
