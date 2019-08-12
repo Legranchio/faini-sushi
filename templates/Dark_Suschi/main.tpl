@@ -44,7 +44,7 @@
 </head>
 {AJAX}
 <body>
- <!--div id="alert"><p>Сайт працює в тестовому режимі!!!</p></div-->   
+ <!--<div id="alert"><p>У зв'язку з технічними причинами, замовлення приймаються лише по телефону. Вибачте за незручності!</p></div>-->   
 <div id="mob_menu_but">
 
 	<img src="{THEME}/img/menu.svg" alt="mob_menu">
